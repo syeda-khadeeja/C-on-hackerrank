@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+    if (n==1 && n>0){
+      cout<<"one";
+    };
+    
+    if (n==2 && n>0){
+        cout<<"two";
+    };
+    if (n==3 && n>0){
+        cout<<"three";
+    };
+    if (n==4 && n>0){
+        cout<<"four";
+    }
+    else if (n==5 && n>0){
+        cout<<"five";
+    }
+    else if (n==6 && n>0){
+        cout<<"six";
+    }
+    else if (n==7 && n>0){
+        cout<<"seven";
+    }
+    else if (n==8 && n>0){
+        cout<<"eight";
+    }
+    else if (n==9 && n>0){
+        cout<<"nine";
+    }
+    else if (n>9 && n>0){
+        cout<<"Greater than 9";
+    }
+    
+    return 0;
+}
