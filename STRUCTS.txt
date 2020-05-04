@@ -1,0 +1,20 @@
+#include <cmath>
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    int age;
+    string f_name;
+    string l_name;
+    int standard;
+    cin>>age;
+    cin>>f_name;
+    cin>>l_name;
+    cin>>standard;
+    cout<<age<<" "<<f_name<<" "<<l_name<<" "<<standard;
+
+    return 0;
+}
